@@ -2,7 +2,7 @@
 
 Features:
 
-Start the game when 2 or more people are in the lobby
+Start the game when 2 or more people are in the lobby without waiting for people to ready
 
 Skip win screen after the game ends
 
