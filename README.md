@@ -2,11 +2,11 @@
 
 Features:
 
-Automatically start the game when 2 or more people are in the lobby
+Start the game when 2 or more people are in the lobby
 
-Skip win screen after game ends
+Skip win screen after game the ends
 
-Skip lobby and start a new game after game ends
+Skip lobby and start a new game after game the ends
 
 Shorter start and end round times
 
