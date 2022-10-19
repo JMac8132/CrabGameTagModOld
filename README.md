@@ -36,7 +36,7 @@ Left Alt + O = Toggle Snowballs
 
 
 
-Left Alt + K = Toggle Host AFK(Will automatically kill you at the beggining of the round)
+Left Alt + K = Toggle Host AFK(Will automatically kill you at the beginning of the round)
 
 Practice Mod Keybinds:
 
