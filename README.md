@@ -20,7 +20,7 @@ Instructions:
 
 Inject at the main menu and don't close the console window that opens after injection(It will close the game)
 
-The console window is where the messages will show up when you toggle things off and on
+The console window is where you will be able to see when you toggle things off and on
 
 Keybinds:
 
