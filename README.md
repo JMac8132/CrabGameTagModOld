@@ -22,9 +22,9 @@ Save your position in practice mode and teleport back to that position to practi
 
 Instructions:
 
-Inject the CrabGameTagMod.dll at the main menu and don't close the console window that opens after injection(It will close the game)
+Inject the CrabGameTagMod.dll at the main menu and don't close the command prompt window that opens after injection(It will close the game)
 
-The console window is where you will be able to see when you toggle things off and on
+The command prompt window is where you will be able to see when you toggle things off and on
 
 Keybinds:
 
