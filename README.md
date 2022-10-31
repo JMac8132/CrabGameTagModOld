@@ -16,7 +16,7 @@ Death and win messages
 
 Play non tag maps
 
-Kill players if they've been afk for 10 seconds after the round has started
+Kill players that have been afk for 10 seconds after the round has started
 
 Save your position in practice mode and teleport back to that position to practice routes more efficiently
 
