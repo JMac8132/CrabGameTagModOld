@@ -40,7 +40,7 @@ Left Alt + O = Toggle Snowballs
 
 
 
-Left Alt + K = Toggle Host AFK(Will automatically kill you at the beginning of the round)
+Left Alt + K = Toggle Host AFK(Will make it so the game doesnt start unless there is atleast 3 or more people in the lobby)
 
 Practice Mode Keybinds:
 
