@@ -1,0 +1,122 @@
+//(*GameManager__TypeInfo)->static_fields->Instance // game manager
+//(*LobbyManager__TypeInfo)->static_fields->Instance // lobby manager
+//(*u109Au10A0u10A0u109Eu10A8u10A6u109Fu10A1u109Du10A7u10A4__TypeInfo)->static_fields->Instance // map manager
+//(*u109Fu10A2u10A8u10A1u10A6u1099u10A0u109Du109Cu10A3u10A2__TypeInfo)->static_fields->Instance // item manager
+//(*u10A5u109Au10A1u10A2u109Bu109Du109Bu10A1u109Fu109Du10A8__TypeInfo)->static_fields->Instance // debug net instance
+//auto playerManager = activePlayers->fields.entries->vector[i].value; // player manager
+//playerManager->fields._u1099u109Fu10A1u10A4u10A3u109Bu10A4u10A8u10A7u109Bu1099_k__BackingField // online player movement // gets online players not your local player
+//playerManager->fields._u1099u109Fu10A1u10A4u10A3u109Bu10A4u10A8u10A7u109Bu1099_k__BackingField->fields.u109Au109Du10A4u10A4u10A8u10A5u10A8u10A8u10A6u10A8u10A5; // player manager rigidbody
+//(*ChatBox__TypeInfo)->static_fields->Instance // chatbox
+//(*PlayerInput__TypeInfo)->static_fields->_Instance_k__BackingField->fields // player input
+//(*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance // game loop
+//(*u109Eu10A6u10A8u10A7u109Au109Au10A2u109Eu10A3u10A0u109F__TypeInfo)->static_fields->Instance // game mode data
+//u109Fu10A2u10A8u10A1u10A6u1099u10A0u109Du109Cu10A3u10A2_GetItemById(9, NULL); // item data
+//(*GameServer__TypeInfo)->static_fields->Instance // game server
+//(*u109Eu1099u10A7u10A0u10A5u109Eu10A6u109Fu10A6u109Cu10A8__TypeInfo)->static_fields->Instance->fields. // quest
+//(*u10A5u10A0u10A4u10A1u109Bu1099u10A4u10A0u10A2u109Eu10A4__TypeInfo)->static_fields->Instance->fields // hp
+
+//auto gameState = (*GameManager__TypeInfo)->static_fields->Instance->fields.gameMode->fields.modeState; // get game and lobby state
+//int intGameState = static_cast<int>(gameState);
+//auto lobbyState = (*LobbyManager__TypeInfo)->static_fields->Instance->fields.state;
+//int intLobbyState = static_cast<int>(lobbyState);
+
+//(*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance; // game loop
+//u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3_NextGame((*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance, NULL);
+//u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3_CheckGameOver((*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance, NULL);
+//u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3_StartGames((*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance, NULL);
+//u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3_RestartLobby((*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance, NULL);
+//u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3_Reset((*u10A3u10A2u10A8u1099u10A4u1099u10A3u10A4u109Cu10A1u10A3__TypeInfo)->static_fields->Instance, NULL);
+//(*u109Fu10A8u10A5u10A8u10A0u10A0u10A5u109Fu10A6u10A3u10A4__TypeInfo)->static_fields //gamemodetag
+//auto gameMode = (*GameManager__TypeInfo)->static_fields->Instance->fields.gameMode;
+
+//il2cppi_to_string(activePlayers->fields.entries->vector[i].value->fields.username) //convert username to string
+//(String*)il2cpp_string_new(str.c_str()) // convert string
+//ServerSend_SendChatMessage(NULL, (String*)il2cpp_string_new(str.c_str()), NULL); // send chat message
+
+//auto gameServer = (*GameServer__TypeInfo)->static_fields->Instance; // respawn player
+//GameServer_QueueRespawn(gameServer, mySteamID, 0.0f, NULL);
+
+//(*u10A0u10A4u10A8u10A1u10A8u109Au10A8u10A1u109Eu1099u109F__TypeInfo)->static_fields->Instance
+
+//LobbyManager_GetClient((*LobbyManager__TypeInfo)->static_fields->Instance, playerID, NULL); // get client
+//auto clientArray = (*LobbyManager__TypeInfo)->static_fields->Instance->fields.u10A8u109Cu10A1u10A5u10A6u10A0u109Du10A3u10A5u10A7u10A8; // client array
+//clientArray->vector[i]->fields.u109Au109Au10A1u109Au109Bu10A2u10A6u10A2u1099u109Bu10A7 // client byte array
+
+// load random tag map
+//std::vector<int> mapVector = { 35, 36, 37, 38, 39, 40 }; // mapIDs
+//int randomMapID = rand() % mapVector.size(); // generate random vector index
+//ServerSend_LoadMap_1(mapVector[randomMapID], 4, NULL); // mapID gamemodeID tagmode=4
+//ServerSend_LoadingSendIntoGame(mySteamID, NULL);
+
+//GameServer_ForceRemoveAllWeapons(NULL); // remove all items
+//GameServer_ForceRemoveItemItemId(playerID, 9, NULL); // remove snowballs
+
+//(*u10A0u10A4u10A8u10A1u10A8u109Au10A8u10A1u109Eu1099u109F__TypeInfo)->static_fields->Instance->fields.currentLobby.m_SteamID // get lobby owner id
+//(*LobbyManager__TypeInfo)->static_fields->Instance->fields.gameMode->fields.id // get mode id
+// Map_get_id((*LobbyManager__TypeInfo)->static_fields->Instance->fields.map, NULL) // get map id
+
+//(*PlayerInput__TypeInfo)->static_fields->_Instance_k__BackingField->fields.playerInventory // player inventory
+
+//(*LobbyManager__TypeInfo)->static_fields->Instance->fields.gameMode // gamemode data
+
+//activePlayers->fields.entries->vector[i].value->fields.username // get player username
+
+//ServerSend_SendModeState(2, NULL); // end game
+
+//GameModeWaiting_SetFreezeTime((*GameModeWaiting__TypeInfo), 20, NULL);
+//std::cout << GameManager_u10A8u109Cu10A8u1099u109Cu109Bu10A7u10A5u10A5u10A5u10A6(gameManager, NULL) << std::endl;
+// std::cout << GameManager_u10A8u109Fu109Cu10A6u1099u109Bu109Bu10A4u109Du10A3u10A6(gameManager, NULL) << std::endl;
+
+// client array
+/*auto clientArray = (*LobbyManager__TypeInfo)->static_fields->Instance->fields.u10A8u109Cu10A1u10A5u10A6u10A0u109Du10A3u10A5u10A7u10A8;
+auto arrLen = Array_get_Length((Array*)clientArray, NULL);
+for (size_t i = 0; i < arrLen; i++)
+{
+    auto client = clientArray->vector[i];
+    if (!client) continue;
+    if (client->fields.u1099u109Au10A1u1099u10A8u109Eu10A0u10A0u109Eu109Au10A0 == 0) continue;
+
+    auto byteArray = client->fields.u109Au109Au10A1u109Au109Bu10A2u10A6u10A2u1099u109Bu10A7;
+    auto numberID = client->fields.u1099u109Au10A1u1099u10A8u109Eu10A0u10A0u109Eu109Au10A0;
+    GameServer_PlayerSpawnRequest(mySteamID, false, byteArray, numberID, NULL);
+}*/
+
+// Kick players if ping is higher than x
+/*auto activePlayers = (*GameManager__TypeInfo)->static_fields->Instance->fields.activePlayers;
+if (!activePlayers) return;
+
+for (size_t i = 0; i < activePlayers->fields.count; i++)
+{
+    auto playerManager = activePlayers->fields.entries->vector[i].value;
+
+    if (!playerManager) continue;
+
+    if (PlayerManager_get_ping(playerManager, NULL) > 150)
+    {
+        auto playerID = activePlayers->fields.entries->vector[i].key;
+        if (!playerID) continue;
+        LobbyManager_KickPlayer((*LobbyManager__TypeInfo)->static_fields->Instance, playerID, NULL); 
+        std::cout << "Player Kicked" << std::endl;
+    }
+}*/
+
+//gamestate
+//0 = lobby / freeze
+//1 = playing
+//2 = round over
+//3 = game over
+//
+//lobbystate
+//0 = mainmenu
+//1 = loading
+//2 = playing / lobby / freeze / roundover
+//4 = gameover
+//
+//custom gamestate
+//0 = mainmenu
+//1 = lobby
+//2 = loading
+//3 = frozen
+//4 = playing
+//5 = ended
+//6 = gameover
